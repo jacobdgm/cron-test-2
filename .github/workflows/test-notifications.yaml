@@ -20,5 +20,5 @@ jobs:
 
       - name: Failing Step to Trigger Notification
         run: |
-          echo "This step will fail."
-          exit 1
+          echo "This step will either fail or pass."
+          exit 0
